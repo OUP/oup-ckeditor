@@ -99,7 +99,28 @@ define(function(require, exports, module) {
                         }
                     }
                 ]
-            }
+            },
+            "config4" : {
+                "toolbar": [
+                    ['Format', 'Font', 'FontSize'],
+                    ['Bold', 'Italic', 'Underline'],
+                    ['Image', 'Table', 'Source'],
+                    ['cloudcms-image', 'cloudcms-link']
+                ],
+                "cloudcms-image": {
+                    "imagePickerType": "file-picker",
+                    "imageUploadPath": "/Images",
+                    "imagePickerConfig": {
+                        "initialContainerPath": "/Images"
+                    }
+                },
+                "cloudcms-link": {
+                    "linkPickerType": "file-picker",
+                    "linkPickerConfig": {
+                        "initialContainerPath": "/"
+                    }
+                }
+            },
         },
 
         /**
