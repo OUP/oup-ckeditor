@@ -12,22 +12,24 @@ define(function(require, exports, module) {
         toolbarOptions: {
             "config1" : {
                 "toolbar": [
-                    [
-                        "Format",
-                        "Font",
-                        "FontSize"
-                    ],
-                    [
-                        "Bold",
-                        "Italic",
-                        "Underline",
-                        "StrikeThrough",
-                        "-",
-                        "Cut",
-                        "Undo",
-                        "Redo"
-                    ]
-                ]
+	                    ['Format', 'Font', 'FontSize'],
+	                    ['Bold', 'Italic', 'Underline'],
+	                    ['Image', 'Table', 'Source'],
+	                    ['cloudcms-image', 'cloudcms-link']
+	                ],
+	                "cloudcms-image": {
+	                    "imagePickerType": "file-picker",
+	                    "imageUploadPath": "/Images",
+	                    "imagePickerConfig": {
+	                        "initialContainerPath": "/Images"
+	                    }
+	                },
+	                "cloudcms-link": {
+	                    "linkPickerType": "file-picker",
+	                    "linkPickerConfig": {
+	                        "initialContainerPath": "/"
+	                    }
+	                }
             },
             "config2" : {
                 "toolbar": [
