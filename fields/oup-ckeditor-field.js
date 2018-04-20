@@ -7,12 +7,11 @@ define(function(require, exports, module) {
     Alpaca.Fields.OUPCKEditorField = Alpaca.Fields.CKEditorField.extend(
     /**
      * @lends Alpaca.Fields.OUPCKEditorField.prototype
-     * For training
      */
     {
         toolbarOptions: {
-            "config1" : {  
-                "toolbar": [  
+            "config1" : {
+                "toolbar": [
                     [
                         "Cut",
                         "Copy",
