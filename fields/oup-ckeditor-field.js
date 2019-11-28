@@ -132,7 +132,8 @@ define(function (require, exports, module) {
                 "Subscript",
                 "Superscript",
                 "-",
-                "RemoveFormat"
+                "RemoveFormat",
+                "a11ychecker"
             ]
         ]
     };
