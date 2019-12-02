@@ -133,7 +133,8 @@ define(function (require, exports, module) {
                 "Superscript",
                 "-",
                 "RemoveFormat",
-                "a11ychecker"
+                "a11ychecker",
+                "a11yhelp"
             ]
         ]
     };
