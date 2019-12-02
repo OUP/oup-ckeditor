@@ -132,9 +132,7 @@ define(function (require, exports, module) {
                 "Subscript",
                 "Superscript",
                 "-",
-                "RemoveFormat",
-                "A11ychecker",
-                "a11yHelp"
+                "RemoveFormat"
             ]
         ]
     };
@@ -389,7 +387,8 @@ define(function (require, exports, module) {
                 "-",
                 "RemoveFormat",
                 "-",
-                "ShowBlocks"
+                "ShowBlocks",
+                "A11ychecker"
             ],
             [
                 "Format",
