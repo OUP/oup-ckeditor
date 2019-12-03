@@ -387,8 +387,7 @@ define(function (require, exports, module) {
                 "-",
                 "RemoveFormat",
                 "-",
-                "ShowBlocks",
-                "A11ychecker"
+                "ShowBlocks"
             ],
             [
                 "Format",
