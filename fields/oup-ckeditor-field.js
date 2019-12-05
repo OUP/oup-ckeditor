@@ -35,7 +35,8 @@ define(function (require, exports, module) {
                 "Maximize",
                 "ShowBlocks",
                 "Source",
-                "Preview"
+                "Preview",
+                "A11ychecker"
             ],
             [
                 "Italic",
