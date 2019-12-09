@@ -35,7 +35,8 @@ define(function (require, exports, module) {
                 "Maximize",
                 "ShowBlocks",
                 "Source",
-                "Preview"
+                "Preview",
+                "A11ychecker"
             ],
             [
                 "Italic",
@@ -387,8 +388,7 @@ define(function (require, exports, module) {
                 "-",
                 "RemoveFormat",
                 "-",
-                "ShowBlocks",
-                "A11ychecker"
+                "ShowBlocks"
             ],
             [
                 "Format",
