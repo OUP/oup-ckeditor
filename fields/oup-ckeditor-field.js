@@ -430,6 +430,75 @@ define(function (require, exports, module) {
             }
         ]
     };
+    let config10 = {
+        "height": 100,
+        "toolbar": [
+            [
+                "Cut",
+                "Copy",
+                "Paste",
+                "-",
+                "Undo",
+                "Redo"
+            ],
+            [
+                "Link",
+                "Unlink"
+            ],
+            [
+                "Italic",
+                "NumberedList",
+                "BulletedList",
+                "Strike",
+                "Subscript",
+                "Superscript",
+                "SpecialChar",
+                "-",
+                "RemoveFormat",
+                "-",
+                "ShowBlocks",
+                "A11ychecker"
+            ],
+            [
+                "Format",
+                "Styles"
+            ]
+        ],
+        "removeButtons": null,
+        "stylesSet": [{
+                "name": "Paragraph",
+                "element": "p"
+            },
+            {
+                "name": "OUP unbulleted list",
+                "element": "ul",
+                "attributes": {
+                    "class": "unbulleted"
+                }
+            },
+            {
+                "name": "OUP horizontal list",
+                "element": "ul",
+                "attributes": {
+                    "class": "inline"
+                }
+            },
+            {
+                "name": "OUP floatLeft Image",
+                "element": "img",
+                "attributes": {
+                    "class": "floatLeft"
+                }
+            },
+            {
+                "name": "OUP floatRight Image",
+                "element": "img",
+                "attributes": {
+                    "class": "floatRight"
+                }
+            }
+        ]
+    };
     let config8 = {
         "toolbar": [
             [
@@ -489,7 +558,7 @@ define(function (require, exports, module) {
                 "config6": Object.create(config6),
                 "config7": Object.create(config7),
                 "configAbtPnlTxtHP": Object.create(config7),
-                "configTextCB": Object.create(config7),
+                "configTextCB": Object.create(config10),
                 "config8": Object.create(config8)
                 
             },
