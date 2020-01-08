@@ -829,7 +829,7 @@ define(function (require, exports, module) {
             setValue: function (data) {
                 var self = this;
                 this.base(data);
-                if (!$("#warning-message").length) { 
+                if (!$("#warning-message2").length) { 
                     $(self.getFieldEl()).append("<span id='warning-message' style='color:black'>WYSIWYG field formatting is an approximation of the styles you will see on the site</span>"); 
                 }
                 if(!self.getValue()){
@@ -839,7 +839,7 @@ define(function (require, exports, module) {
             afterRenderControl: function (model, callback) {
                 var self = this;
                 this.base(model, function () {
-                    $(self.getFieldEl()).remove("#warning-message");
+                    $(self.getFieldEl()).remove("#warning-message2");
                     $(self.getFieldEl()).append("<span id='warning-message' style='color:black'>WYSIWYG field formatting is an approximation of the styles you will see on the site</span>");
                     callback();
                 });
