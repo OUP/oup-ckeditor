@@ -826,10 +826,21 @@ define(function (require, exports, module) {
 
                 return false;
             },
-
+            setValue: function (data) {
+                var self = this;
+                this.base(data);
+                if (!$("#warning-message").length) { 
+                    $(self.getFieldEl()).append("<span id='warning-message' style='color:black'>WYSIWYG field formatting is an approximation of the styles you will see on the site</span>"); 
+                }
+                if(!self.getValue()){
+                    self.setDefault();
+                }
+            },
             afterRenderControl: function (model, callback) {
                 var self = this;
-                self.base(model, function () {
+                this.base(model, function () {
+                    $(self.getFieldEl()).remove("#warning-message");
+                    $(self.getFieldEl()).append("<span id='warning-message' style='color:black'>WYSIWYG field formatting is an approximation of the styles you will see on the site</span>");
                     callback();
                 });
             },
