@@ -35,7 +35,6 @@ define(function (require, exports, module) {
                 "Maximize",
                 "ShowBlocks",
                 "Source",
-                "A11ychecker",
                 "Preview"
             ],
             [
